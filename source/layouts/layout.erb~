@@ -15,6 +15,7 @@
   
   <body class="<%= page_classes %>">
     <%= yield %>
+  </body>
 
   <script>
     document.write('<script src=' +
@@ -27,5 +28,5 @@
   <script>
     $(document).foundation();
   </script>
-</body>
+
 </html>
