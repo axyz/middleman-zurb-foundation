@@ -1,6 +1,6 @@
 # Middleman Template: ZURB Foundation #
 
-Middleman-Foundation is a [Middleman 3.x](http://middlemanapp.com/) project template with the [Compass](http://compass-style.org) and [SCSS](http://sass-lang.com/) version of the [ZURB Foundation](http://foundation.zurb.com/).
+Middleman-Foundation is a minimal [Middleman](http://middlemanapp.com/) project template with the [SCSS](http://sass-lang.com/) version of the [ZURB Foundation](http://foundation.zurb.com/).
 
 ## Installation ##
 
