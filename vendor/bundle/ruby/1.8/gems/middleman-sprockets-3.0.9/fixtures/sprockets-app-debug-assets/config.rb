@@ -1,0 +1,1 @@
+set :debug_assets, true

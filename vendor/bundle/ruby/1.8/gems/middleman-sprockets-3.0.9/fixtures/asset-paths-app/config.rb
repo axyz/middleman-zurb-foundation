@@ -1,0 +1,1 @@
+set :js_assets_paths, ["#{root}/derp/javascripts/"]
