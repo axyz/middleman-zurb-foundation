@@ -7,14 +7,21 @@ Middleman-Foundation is a [Middleman 3.x](http://middlemanapp.com/) project temp
 Make sure to have:
 
 1. ruby
-2. git
-3. middleman ($ `gem install middleman`)
-4. zurb foundation ($ `gem install zurb-foundation`)
+1. git
+1. middleman ($ `gem install middleman`)
 
 Clone into ~/.middleman (you'll have to create this directory if it's not already there). You can then use it with the `--template` flag on `middleman init`.
 
 1. $ `git clone git://github.com/axyz/middleman-zurb-foundation.git ~/.middleman/zurb-foundation`
-2. $ `middleman init my_new_project --template=zurb-foundation`
+
+Then create a new project using zurb-foundation template.
+
+1. $ `middleman init my_new_project --template=zurb-foundation`
+1. $ `cd my_new_proyect`
+1. $ `bundle install`
+1. $ `bundle exec middleman`
+
+Now you can start hacking on `source` directory and watch live changes on [localhost:4567](http://localhost:4567).
 
 For more help follow [Middleman's project template instructions](http://middlemanapp.com/getting-started/welcome/) or feel free to hit me up on [Twitter](http://twitter.com/axyz).
 
