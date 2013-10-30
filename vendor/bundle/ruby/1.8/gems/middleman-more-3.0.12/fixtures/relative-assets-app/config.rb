@@ -1,1 +1,0 @@
-# activate :relative_assets
