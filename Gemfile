@@ -2,10 +2,10 @@
 # the following line to use "https"
 source 'http://rubygems.org'
 
-gem "middleman", "~>3.1.6"
+gem "middleman"
 
 # Live-reloading plugin
-gem "middleman-livereload", "~> 3.1.0"
+gem "middleman-livereload"
 
 # For faster file watcher updates on Windows:
 gem "wdm", "~> 0.1.0", :platforms => [:mswin, :mingw]
@@ -14,5 +14,3 @@ gem "wdm", "~> 0.1.0", :platforms => [:mswin, :mingw]
 platforms :mri_18 do
   gem "ruby18_source_location"
 end
-
-gem "zurb-foundation"

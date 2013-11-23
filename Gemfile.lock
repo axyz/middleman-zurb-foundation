@@ -19,7 +19,7 @@ GEM
     eventmachine (1.0.3)
     execjs (1.4.0)
       multi_json (~> 1.0)
-    ffi (1.9.2)
+    ffi (1.9.3)
     fssm (0.2.10)
     haml (4.0.3)
       tilt
@@ -98,8 +98,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  middleman (~> 3.1.6)
-  middleman-livereload (~> 3.1.0)
+  middleman
+  middleman-livereload
   ruby18_source_location
   wdm (~> 0.1.0)
   zurb-foundation
