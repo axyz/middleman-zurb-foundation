@@ -1,8 +1,35 @@
-require "zurb-foundation"
-
 ###
 # Compass
 ###
+
+compass_config do |config|
+  # Require any additional compass plugins here.
+  config.add_import_path "bower_components/foundation/scss"
+
+  # Set this to the root of your project when deployed:
+  config.http_path = "/"
+  config.css_dir = "stylesheets"
+  config.sass_dir = "stylesheets"
+  config.images_dir = "images"
+  config.javascripts_dir = "javascripts"
+
+  # You can select your preferred output style here (can be overridden via the command line):
+  # output_style = :expanded or :nested or :compact or :compressed
+
+  # To enable relative paths to assets via compass helper functions. Uncomment:
+  # relative_assets = true
+
+  # To disable debugging comments that display the original location of your selectors. Uncomment:
+  # line_comments = false
+
+
+  # If you prefer the indented syntax, you might want to regenerate this
+  # project again passing --syntax sass, or you can uncomment this:
+  # preferred_syntax = :sass
+  # and then run:
+  # sass-convert -R --from scss --to sass sass scss && rm -rf sass && mv scss sass
+
+end
 
 # Change Compass configuration
 # compass_config do |config|
@@ -46,6 +73,10 @@ require "zurb-foundation"
 #     "Helping"
 #   end
 # end
+
+sprockets.append_path "bower_components/foundation/js"
+sprockets.append_path "bower_components/modernizr"
+sprockets.append_path "bower_components/jquery"
 
 set :css_dir, 'stylesheets'
 
