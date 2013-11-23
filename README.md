@@ -19,8 +19,7 @@ Clone into ~/.middleman (you'll have to create this directory if it's not alread
 Then create a new project using zurb-foundation template.
 
 1. $ `middleman init my_new_project --template=zurb-foundation`
-1. $ `cd my_new_proyect`
-1. $ `bundle install`
+1. $ `cd my_new_project`
 1. $ `bower install`
 1. $ `bundle exec middleman`
 
