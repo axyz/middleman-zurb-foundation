@@ -9,6 +9,8 @@ Make sure to have:
 1. ruby
 1. git
 1. middleman ($ `gem install middleman`)
+1. bower ($ `npm install -g bower`)
+
 
 Clone into ~/.middleman (you'll have to create this directory if it's not already there). You can then use it with the `--template` flag on `middleman init`.
 
@@ -19,6 +21,7 @@ Then create a new project using zurb-foundation template.
 1. $ `middleman init my_new_project --template=zurb-foundation`
 1. $ `cd my_new_proyect`
 1. $ `bundle install`
+1. $ `bower install`
 1. $ `bundle exec middleman`
 
 Now you can start hacking on `source` directory and watch live changes on [localhost:4567](http://localhost:4567).
