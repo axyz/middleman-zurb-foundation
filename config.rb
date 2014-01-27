@@ -5,7 +5,7 @@
 compass_config do |config|
   # Require any additional compass plugins here.
   config.add_import_path "bower_components/foundation/scss"
-
+  
   # Set this to the root of your project when deployed:
   config.http_path = "/"
   config.css_dir = "stylesheets"
@@ -74,9 +74,11 @@ end
 #   end
 # end
 
-sprockets.append_path "bower_components/foundation/js"
-sprockets.append_path "bower_components/modernizr"
-sprockets.append_path "bower_components/jquery"
+# Add bower's directory to sprockets asset path
+after_configuration do
+  @bower_config = JSON.parse(IO.read("#{root}/.bowerrc"))
+  sprockets.append_path File.join "#{root}", @bower_config["directory"]
+end
 
 set :css_dir, 'stylesheets'
 

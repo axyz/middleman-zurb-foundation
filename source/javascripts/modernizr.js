@@ -1,1 +1,1 @@
-//= require modernizr
+//= require modernizr/modernizr
