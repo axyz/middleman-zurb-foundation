@@ -18,3 +18,6 @@
 
 # Ignore .DS_store file
 .DS_Store
+
+# Ignore bower components
+source/bower_components
