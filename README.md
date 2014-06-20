@@ -2,6 +2,11 @@
 
 middleman-zurb-foundation is a minimal [Middleman](http://middlemanapp.com/) project template with the [SASS](http://sass-lang.com/) version of the [ZURB Foundation](http://foundation.zurb.com/) Framework.
 
+
+## Beware!! ##
+
+Installing this will completely destroy your git history! If you value your git history, don't install this! IF YOU DON'T WANT TO LOSE ALL OF YOUR WORK, DON'T INSTALL THIS.
+
 ## Installation ##
 
 Make sure to have:
