@@ -25,6 +25,10 @@ Then create a new project using zurb-foundation template.
 
 Now you can start hacking on `source` directory and watch live changes on [localhost:4567](http://localhost:4567).
 
+If you have trouble with the above instructions, you may be able to use this one-liner.
+
+1. $ `middleman init my_new_project --template=axyz/middleman-zurb-foundation`
+
 For more help follow [Middleman's project template instructions](http://middlemanapp.com/getting-started/welcome/) or feel free to hit me up on [Twitter](http://twitter.com/axyz).
 
 ## ZURB Foundation License ##
